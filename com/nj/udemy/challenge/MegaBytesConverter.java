@@ -1,3 +1,5 @@
+package com.nj.udemy.challenge;
+
 public class MegaBytesConverter {
 
         public static void main(String[] args) {

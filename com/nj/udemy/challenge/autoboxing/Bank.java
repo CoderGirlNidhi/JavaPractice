@@ -38,7 +38,7 @@ public class Bank {
                 return customer;
             }
         }
-        System.out.printf("Customer (%s) wasn't found %n", customerName);
+        System.out.printf("CustomerConstructor (%s) wasn't found %n", customerName);
         return null;
     }
 
@@ -47,7 +47,7 @@ public class Bank {
         if(getCustomer(customerName) == null ) {
             Customer newCustomer = new Customer(customerName, initialDeposit);
             customers.add(newCustomer);
-            System.out.println("New Customer Added: " + newCustomer);
+            System.out.println("New CustomerConstructor Added: " + newCustomer);
         }
     }
 
@@ -67,7 +67,7 @@ public class Bank {
         }
 
         System.out.println("-".repeat(30));
-        System.out.println("Customer Name " + customer.name());
+        System.out.println("CustomerConstructor Name " + customer.name());
         System.out.println("Transactions: ");
         for(double d : customer.transactions()) { //Unboxing
             System.out.printf("$%10.2f (%s)%n" , d, d < 0 ? "debit" : "credit");

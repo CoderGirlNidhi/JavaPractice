@@ -1,4 +1,4 @@
-package com.nj.udemy.challenge.encapsulation;
+package com.nj.udemy.challenge;
 
 public class Printer {
 
@@ -11,6 +11,31 @@ public class Printer {
         this.tonerLevel = tonerLevel;// this.tonerLevel = (tonerLevel >= 0 && tonerLevel <=100 ) ? tonerLevel : -1;
         this.pagesPrinted = 0;
         this.duplex = duplex;
+    }
+
+    public static void main(String[] args) {
+//        Printer p = new Printer(80, 5 , false);
+//        System.out.println(p);
+        Printer p1 = new Printer(80, true);
+        System.out.println("Initial Page count = " + p1.getPagesPrinted());
+
+        int pagesPrinted = p1.printPages(5);
+        System.out.printf("Current job pages : %d, Printer Total : %d %n" , pagesPrinted, p1.getPagesPrinted());
+
+        pagesPrinted = p1.printPages(10);
+        System.out.printf("Current job pages : %d, Printer Total : %d %n" , pagesPrinted, p1.getPagesPrinted());
+
+//        p.addToner(70);
+//        p.printPages(19);
+//        System.out.println(p);
+//
+//        p.addToner(20);
+//        p.printPages(-6);
+//        System.out.println(p);
+//
+//        p.addToner(-6);
+//        p.printPages(10);
+//        System.out.println(p);
     }
 
     public int addToner(int tonerAmount) {

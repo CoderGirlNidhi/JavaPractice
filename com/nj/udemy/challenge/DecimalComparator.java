@@ -1,4 +1,6 @@
-public class DecimalCompator {
+package com.nj.udemy.challenge;
+
+public class DecimalComparator {
 
     public static void main(String[] args) {
 
