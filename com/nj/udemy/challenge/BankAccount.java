@@ -138,8 +138,5 @@ public class BankAccount {
 //        System.out.println(customer2.getPhoneNo());
 
 //        customer1.depositFunds(-50);
-
-
-
     }
 }
