@@ -1,8 +1,8 @@
 package com.nj.leetcode;
 
-// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-
 import java.util.Arrays;
+
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 public class LCRemovingDuplicates {
 

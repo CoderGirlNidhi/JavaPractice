@@ -1,4 +1,5 @@
 package com.nj.leetcode;
+
 //https://leetcode.com/problems/search-insert-position/
 
 public class LCSearchInsertPosition {

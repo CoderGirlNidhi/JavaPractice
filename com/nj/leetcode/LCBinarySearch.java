@@ -1,4 +1,5 @@
 package com.nj.leetcode;
+
 // https://leetcode.com/problems/binary-search/
 
 public class LCBinarySearch {
