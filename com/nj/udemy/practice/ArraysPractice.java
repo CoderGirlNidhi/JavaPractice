@@ -32,11 +32,11 @@ public class ArraysPractice {
         //int[] newArray = {5,4,3,2,1};  We can write this as well
         int[] newArray;
         //  newArray = new int[] {5,4,3,2,1,}; //
-        newArray = new int[5]; // default value is assigned in the array
+        newArray = new int[5]; // default value is assigned in the array = 0,0,0,0,0
         System.out.println(newArray.length);
 
         for (int i = 0; i < newArray.length; i++) {
-            newArray[i] = newArray.length - i;
+            newArray[i] = newArray.length - i; //descending order printing of array
         }
         for (int i = 0; i < newArray.length; i++) {
             System.out.print(newArray[i] + " ");

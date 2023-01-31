@@ -1,4 +1,4 @@
-package com.nj.udemy.practice;
+package com.nj.udemy.practice.recurssion;
 
 /* Implement a method to calculate Factorial in java.
 
@@ -15,9 +15,12 @@ public class Factorial {
     public static long calculateFactorial(int n) {
 //        (5)! = 5 * 4 * 3 * 2 * 1;
 //        (1)! = 1;
-//        (0)! = Error
-//        (20)! = Error (Question parameter indicates n > 20 -> error)
 
-        return 0;
+        if(n == 1) {
+            return 1;
+        }
+        return n * calculateFactorial(n-1);
+
+
     }
 }
