@@ -7,7 +7,7 @@ import java.util.ListIterator;
 public class LinkedLists {
     public static void main(String[] args) {
 
-//        LinkedList<String> placesList = new LinkedList<>(); //declaration
+//        MyLinkedList<String> placesList = new MyLinkedList<>(); //declaration
         var placesList = new LinkedList<String>();
         placesList.add("Sydney");
         placesList.add(0, "California");

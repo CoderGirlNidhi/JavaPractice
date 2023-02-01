@@ -24,7 +24,7 @@ public class FindZero {
 //        System.out.println(last);
 //        System.out.println(obj);
 //
-//        Queue<Integer> objQueue = new LinkedList<>();
+//        Queue<Integer> objQueue = new MyLinkedList<>();
 //
 //
 //        ArrayList<Integer> list = new ArrayList<>();
