@@ -1,12 +1,7 @@
 package com.nj.udemy.practice.linkedlist;
 
-import com.sun.jdi.connect.spi.TransportService;
-
 import java.util.LinkedList;
-import java.util.ListIterator;
-import java.util.Locale;
 import java.util.Scanner;
-
 
 record Place(String name, int distance) {
     @Override
@@ -17,7 +12,7 @@ record Place(String name, int distance) {
 }
 public class LinkedListChallenge {
 
-    private static Scanner sc = new Scanner(System.in);
+    private final static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package com.nj.leetcode;
+package com.nj.leetcode.linkedlist;
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list
 public class LLRemoveDuplicate {
@@ -30,13 +30,6 @@ public class LLRemoveDuplicate {
  class ListNode {
      int val;
      ListNode next;
-
-     ListNode() {
-     }
-
-     ListNode(int val) {
-         this.val = val;
-     }
 
      ListNode(int val, ListNode next) {
          this.val = val;

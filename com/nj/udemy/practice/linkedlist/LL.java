@@ -44,7 +44,7 @@ class LL {
         }
         Node currNode = head; // to traverse through the list
        while(currNode.next != null) {
-           currNode = currNode.next;
+           currNode = currNode.next; // to keep moving , it will take the node's next position details from .next
         }
        currNode.next = newNode;
     }

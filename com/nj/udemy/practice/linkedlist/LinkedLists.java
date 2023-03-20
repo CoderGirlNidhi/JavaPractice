@@ -1,6 +1,5 @@
 package com.nj.udemy.practice.linkedlist;
 
-import java.io.PrintStream;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -32,7 +31,7 @@ public class LinkedLists {
     private static void addElements(LinkedList<String> placesList) {
 
 //        QUEUE Methods
-        placesList.offer("Singapore"); // offer last works same as offer, add elements to the last index
+        placesList.offer("Singapore"); // offer last works same as add last, add elements to the last index
         placesList.offerFirst("UK");
         System.out.println(placesList);
 
@@ -152,7 +151,7 @@ public class LinkedLists {
         System.out.println(list);
     }
 
-    //      ListIterator can move forward as well as backward. It supports 3 functions : Remove, Add, Set elements.
+    //      ListIterator can move forward as well as backward. It supports 3 functions : Remove, Add, Set1 elements.
     private static void testListIterator(LinkedList<String> list) {
         var iterator = list.listIterator();
         while (iterator.hasNext()) {
